@@ -1,0 +1,9 @@
+{
+  "name": "nabbreviate-api-action-config",
+  "version": "latest",
+  "private": true,
+  "repository": {
+    "exist": false
+  },
+  "java": 11
+}
