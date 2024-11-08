@@ -19,7 +19,7 @@ jobs:
       with:
         path: ./ACTION_CONFIG/values.json
     - name: Echo values.json
-      run: echo "${{ steps.values.outputs.content }}"
+      run: echo "${{ fromJson(steps.values.outputs.content).version }}"
 
 #    - name: Check out the repo
 #      uses: actions/checkout@v4
